@@ -1,0 +1,131 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 25%;
+    min-width: 240px;
+    max-width: 280px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f9;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+.searchInput {
+  background-color: #f1f1f9;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+.searchIcon {
+  color: #475569;
+  width: 20px;
+  height: 20px;
+}
+.categoryHeading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+.categoriesList {
+  padding-left: 0;
+}
+.categoryItem {
+  list-style: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.categoryName {
+  color: #64758b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.activeCategoryName {
+  color: #0967d2;
+}
+.ratingHeading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+.ratingsList {
+  padding-left: 0px;
+}
+.ratingItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.ratingImg {
+  max-width: 152px;
+  height: 20px;
+}
+.andUp {
+  color: #64758b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.activeRating {
+  color: #0967d2;
+}
+.clearFiltersBtn {
+  background-color: #ffffff;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 1px solid #0967d2;
+  padding: 8px 12px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .categoryHeading {
+    margin-top: 32px;
+  }
+  .categoryItem {
+    margin-top: 24px;
+  }
+  .categoryName {
+    font-size: 18px;
+  }
+  .ratingImg {
+    height: 24px;
+  }
+  .andUp {
+    font-size: 18px;
+    margin-left: 14px;
+  }
+  .clearFiltersBtn {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+  }
+}
